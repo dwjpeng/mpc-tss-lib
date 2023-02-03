@@ -19,9 +19,9 @@ import (
 
 const (
 	// Using a modulus length of 2048 is recommended in the GG18 spec
-	paillierModulusLen = 2048
+	paillierModulusLen = 1024
 	// Two 1024-bit safe primes to produce NTilde
-	safePrimeBitLen = 1024
+	safePrimeBitLen = 512
 	// Ticker for printing log statements while generating primes/modulus
 	logProgressTickInterval = 8 * time.Second
 )
