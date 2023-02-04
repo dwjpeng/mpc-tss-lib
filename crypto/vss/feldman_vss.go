@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/bnb-chain/tss-lib/common"
-	"github.com/bnb-chain/tss-lib/crypto"
+	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
 )
 
 type (

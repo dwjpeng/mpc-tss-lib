@@ -1,4 +1,4 @@
-module github.com/bnb-chain/tss-lib
+module github.com/Super-NFT/mpc-tss-lib
 
 go 1.16
 

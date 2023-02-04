@@ -9,9 +9,9 @@ package resharing
 import (
 	"errors"
 
-	"github.com/bnb-chain/tss-lib/crypto/dlnproof"
-	"github.com/bnb-chain/tss-lib/ecdsa/keygen"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/crypto/dlnproof"
+	"github.com/Super-NFT/mpc-tss-lib/ecdsa/keygen"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 func (round *round2) Start() *tss.Error {

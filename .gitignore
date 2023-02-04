@@ -21,4 +21,4 @@ vendor
 !.idea/codeStyles/
 *.swp
 .vscode/*.json
-
+go.sum

@@ -14,8 +14,8 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/bnb-chain/tss-lib/common"
-	"github.com/bnb-chain/tss-lib/crypto"
+	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcutil/base58"
 	"golang.org/x/crypto/ripemd160"

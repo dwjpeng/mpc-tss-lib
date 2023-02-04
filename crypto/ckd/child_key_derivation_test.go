@@ -9,7 +9,7 @@ package ckd_test
 import (
 	"testing"
 
-	. "github.com/bnb-chain/tss-lib/crypto/ckd"
+	. "github.com/Super-NFT/mpc-tss-lib/crypto/ckd"
 	"github.com/btcsuite/btcd/btcec"
 )
 

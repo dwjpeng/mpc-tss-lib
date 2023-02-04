@@ -10,12 +10,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bnb-chain/tss-lib/crypto"
-	"github.com/bnb-chain/tss-lib/crypto/commitments"
-	"github.com/bnb-chain/tss-lib/crypto/vss"
-	"github.com/bnb-chain/tss-lib/ecdsa/keygen"
-	"github.com/bnb-chain/tss-lib/ecdsa/signing"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
+	"github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
+	"github.com/Super-NFT/mpc-tss-lib/crypto/vss"
+	"github.com/Super-NFT/mpc-tss-lib/ecdsa/keygen"
+	"github.com/Super-NFT/mpc-tss-lib/ecdsa/signing"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 // round 1 represents round 1 of the keygen part of the GG18 ECDSA TSS spec (Gennaro, Goldfeder; 2018)

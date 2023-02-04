@@ -10,8 +10,8 @@ import (
 	"encoding/hex"
 	"math/big"
 
-	"github.com/bnb-chain/tss-lib/crypto"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 type (

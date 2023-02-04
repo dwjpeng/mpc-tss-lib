@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bnb-chain/tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/common"
 )
 
 const (

@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bnb-chain/tss-lib/common"
-	"github.com/bnb-chain/tss-lib/crypto"
-	. "github.com/bnb-chain/tss-lib/crypto/schnorr"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
+	. "github.com/Super-NFT/mpc-tss-lib/crypto/schnorr"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 func TestSchnorrProof(t *testing.T) {

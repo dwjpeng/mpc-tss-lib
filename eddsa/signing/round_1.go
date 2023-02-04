@@ -10,11 +10,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bnb-chain/tss-lib/common"
-	"github.com/bnb-chain/tss-lib/crypto"
-	"github.com/bnb-chain/tss-lib/crypto/commitments"
-	"github.com/bnb-chain/tss-lib/eddsa/keygen"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
+	"github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
+	"github.com/Super-NFT/mpc-tss-lib/eddsa/keygen"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 // round 1 represents round 1 of the signing part of the EDDSA TSS spec

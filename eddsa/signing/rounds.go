@@ -7,9 +7,9 @@
 package signing
 
 import (
-	"github.com/bnb-chain/tss-lib/common"
-	"github.com/bnb-chain/tss-lib/eddsa/keygen"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/eddsa/keygen"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 const (

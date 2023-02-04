@@ -10,11 +10,11 @@ import (
 	"crypto/elliptic"
 	"math/big"
 
-	"github.com/bnb-chain/tss-lib/common"
-	"github.com/bnb-chain/tss-lib/crypto"
-	cmt "github.com/bnb-chain/tss-lib/crypto/commitments"
-	"github.com/bnb-chain/tss-lib/crypto/vss"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
+	cmt "github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
+	"github.com/Super-NFT/mpc-tss-lib/crypto/vss"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 // These messages were generated from Protocol Buffers definitions into eddsa-resharing.pb.go

@@ -15,13 +15,13 @@ import (
 	"github.com/ipfs/go-log"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bnb-chain/tss-lib/common"
-	"github.com/bnb-chain/tss-lib/crypto"
-	"github.com/bnb-chain/tss-lib/eddsa/keygen"
-	. "github.com/bnb-chain/tss-lib/eddsa/resharing"
-	"github.com/bnb-chain/tss-lib/eddsa/signing"
-	"github.com/bnb-chain/tss-lib/test"
-	"github.com/bnb-chain/tss-lib/tss"
+	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/crypto"
+	"github.com/Super-NFT/mpc-tss-lib/eddsa/keygen"
+	. "github.com/Super-NFT/mpc-tss-lib/eddsa/resharing"
+	"github.com/Super-NFT/mpc-tss-lib/eddsa/signing"
+	"github.com/Super-NFT/mpc-tss-lib/test"
+	"github.com/Super-NFT/mpc-tss-lib/tss"
 )
 
 const (

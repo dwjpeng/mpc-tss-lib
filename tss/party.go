@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bnb-chain/tss-lib/common"
+	"github.com/Super-NFT/mpc-tss-lib/common"
 )
 
 type Party interface {
