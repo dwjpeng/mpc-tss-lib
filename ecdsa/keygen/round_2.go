@@ -9,7 +9,6 @@ package keygen
 import (
 	"encoding/hex"
 	"errors"
-	"fmt"
 	"sync"
 
 	"github.com/Super-NFT/mpc-tss-lib/common"
@@ -49,7 +48,6 @@ func (round *round2) Start() *tss.Error {
 			r1msg.UnmarshalH2(),
 			r1msg.UnmarshalNTilde(),
 			r1msg.UnmarshalPaillierPK()
-		fmt.Println("paillierPKj.N.BitLen():", paillierPKj.N.BitLen())
 		if paillierPKj.N.BitLen() != paillierBitsLen {
 			return round.WrapError(errors.New("got paillier modulus with insufficient bits for this party"), msg.GetFrom())
 		}
