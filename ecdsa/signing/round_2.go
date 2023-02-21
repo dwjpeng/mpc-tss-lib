@@ -12,8 +12,8 @@ import (
 
 	errorspkg "github.com/pkg/errors"
 
-	"github.com/Super-NFT/mpc-tss-lib/crypto/mta"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/mta"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 func (round *round2) Start() *tss.Error {

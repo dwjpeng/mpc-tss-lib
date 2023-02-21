@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/common"
 )
 
 func TestRejectionSample(t *testing.T) {

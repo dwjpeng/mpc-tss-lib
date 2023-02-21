@@ -7,7 +7,7 @@
 package keygen
 
 import (
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 const (

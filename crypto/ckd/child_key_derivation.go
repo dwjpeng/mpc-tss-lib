@@ -14,10 +14,10 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto"
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcutil/base58"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto"
 	"golang.org/x/crypto/ripemd160"
 )
 

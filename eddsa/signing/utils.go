@@ -12,7 +12,7 @@ import (
 
 	"github.com/agl/ed25519/edwards25519"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/common"
 )
 
 func encodedBytesToBigInt(s *[32]byte) *big.Int {

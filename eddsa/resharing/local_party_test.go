@@ -15,13 +15,12 @@ import (
 	"github.com/ipfs/go-log"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto"
-	"github.com/Super-NFT/mpc-tss-lib/eddsa/keygen"
-	. "github.com/Super-NFT/mpc-tss-lib/eddsa/resharing"
-	"github.com/Super-NFT/mpc-tss-lib/eddsa/signing"
-	"github.com/Super-NFT/mpc-tss-lib/test"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto"
+	"github.com/dwjpeng/mpc-tss-lib/eddsa/keygen"
+	"github.com/dwjpeng/mpc-tss-lib/eddsa/signing"
+	"github.com/dwjpeng/mpc-tss-lib/test"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 const (

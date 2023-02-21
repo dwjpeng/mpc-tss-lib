@@ -10,7 +10,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/crypto/dlnproof"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/dlnproof"
 )
 
 type DlnProofVerifier struct {

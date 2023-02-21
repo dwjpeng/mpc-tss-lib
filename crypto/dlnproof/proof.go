@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	cmts "github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	cmts "github.com/dwjpeng/mpc-tss-lib/crypto/commitments"
 )
 
 const Iterations = 128

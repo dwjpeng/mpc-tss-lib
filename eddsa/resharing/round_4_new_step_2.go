@@ -11,11 +11,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/vss"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/commitments"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/vss"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 func (round *round4) Start() *tss.Error {

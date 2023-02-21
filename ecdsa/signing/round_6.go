@@ -11,8 +11,8 @@ import (
 
 	errors2 "github.com/pkg/errors"
 
-	"github.com/Super-NFT/mpc-tss-lib/crypto/schnorr"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/schnorr"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 func (round *round6) Start() *tss.Error {

@@ -11,8 +11,6 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-
-	. "github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
 )
 
 func TestCreateVerify(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 	"github.com/agl/ed25519/edwards25519"
 	"github.com/decred/dcrd/dcrec/edwards/v2"
 
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 func (round *finalization) Start() *tss.Error {

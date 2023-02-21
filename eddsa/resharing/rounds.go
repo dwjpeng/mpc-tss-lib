@@ -7,8 +7,8 @@
 package resharing
 
 import (
-	"github.com/Super-NFT/mpc-tss-lib/eddsa/keygen"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/eddsa/keygen"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 const (
@@ -22,7 +22,7 @@ type (
 		input, save *keygen.LocalPartySaveData
 		out         chan<- tss.Message
 		end         chan<- keygen.LocalPartySaveData
-		oldOK,      // old committee "ok" tracker
+		oldOK, // old committee "ok" tracker
 		newOK []bool // `ok` tracks parties which have been verified by Update(); this one is for the new committee
 		started bool
 		number  int

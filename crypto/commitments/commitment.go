@@ -12,7 +12,7 @@ package commitments
 import (
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/common"
 )
 
 const (

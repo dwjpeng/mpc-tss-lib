@@ -10,11 +10,11 @@ import (
 	"crypto/elliptic"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto"
-	cmt "github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/schnorr"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto"
+	cmt "github.com/dwjpeng/mpc-tss-lib/crypto/commitments"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/schnorr"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 // These messages were generated from Protocol Buffers definitions into eddsa-signing.pb.go

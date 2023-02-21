@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Super-NFT/mpc-tss-lib/crypto/dlnproof"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/dlnproof"
 )
 
 func BenchmarkDlnProof_Verify(b *testing.B) {

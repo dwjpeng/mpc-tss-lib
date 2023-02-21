@@ -10,11 +10,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
-	"github.com/Super-NFT/mpc-tss-lib/eddsa/keygen"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/commitments"
+	"github.com/dwjpeng/mpc-tss-lib/eddsa/keygen"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 // round 1 represents round 1 of the signing part of the EDDSA TSS spec
