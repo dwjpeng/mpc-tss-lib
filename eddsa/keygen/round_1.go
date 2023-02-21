@@ -10,11 +10,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto"
-	cmts "github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/vss"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto"
+	cmts "github.com/dwjpeng/mpc-tss-lib/crypto/commitments"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/vss"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 var (

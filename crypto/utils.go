@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/common"
 )
 
 func GenerateNTildei(safePrimes [2]*big.Int) (NTildei, h1i, h2i *big.Int, err error) {

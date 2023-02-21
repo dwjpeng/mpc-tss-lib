@@ -9,9 +9,9 @@ package keygen
 import (
 	"errors"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/paillier"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/paillier"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 func (round *round4) Start() *tss.Error {

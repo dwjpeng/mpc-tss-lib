@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	cmt "github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/vss"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	cmt "github.com/dwjpeng/mpc-tss-lib/crypto/commitments"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/vss"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 // Implements Party

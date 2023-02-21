@@ -18,8 +18,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Super-NFT/mpc-tss-lib/test"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/test"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 const (

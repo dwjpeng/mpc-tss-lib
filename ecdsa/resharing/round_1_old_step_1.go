@@ -10,12 +10,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Super-NFT/mpc-tss-lib/crypto"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/commitments"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/vss"
-	"github.com/Super-NFT/mpc-tss-lib/ecdsa/keygen"
-	"github.com/Super-NFT/mpc-tss-lib/ecdsa/signing"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/crypto"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/commitments"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/vss"
+	"github.com/dwjpeng/mpc-tss-lib/ecdsa/keygen"
+	"github.com/dwjpeng/mpc-tss-lib/ecdsa/signing"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 // round 1 represents round 1 of the keygen part of the GG18 ECDSA TSS spec (Gennaro, Goldfeder; 2018)

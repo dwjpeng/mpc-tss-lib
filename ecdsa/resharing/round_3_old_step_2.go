@@ -9,7 +9,7 @@ package resharing
 import (
 	"errors"
 
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 func (round *round3) Start() *tss.Error {

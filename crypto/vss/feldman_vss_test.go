@@ -12,9 +12,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	. "github.com/Super-NFT/mpc-tss-lib/crypto/vss"
-	"github.com/Super-NFT/mpc-tss-lib/tss"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/tss"
 )
 
 func TestCheckIndexesDup(t *testing.T) {

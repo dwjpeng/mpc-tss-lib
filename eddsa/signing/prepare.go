@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/common"
 )
 
 // PrepareForSigning(), Fig. 7

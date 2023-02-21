@@ -1,4 +1,4 @@
-module github.com/Super-NFT/mpc-tss-lib
+module github.com/dwjpeng/mpc-tss-lib
 
 go 1.16
 

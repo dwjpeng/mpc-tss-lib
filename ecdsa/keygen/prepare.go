@@ -13,8 +13,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
-	"github.com/Super-NFT/mpc-tss-lib/crypto/paillier"
+	"github.com/dwjpeng/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/crypto/paillier"
 )
 
 const (

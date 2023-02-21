@@ -11,7 +11,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/Super-NFT/mpc-tss-lib/common"
+	"github.com/dwjpeng/mpc-tss-lib/common"
 )
 
 type (
